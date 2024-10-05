@@ -3,8 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { UserButton } from "@clerk/nextjs";
-import { BookOpen, CupSoda, Github, Instagram, LayoutTemplate, Linkedin, MessageCircleDashed } from "lucide-react";
-
+import { bgvideo} from "@/dashboard/Digital globe (1).mp4"
 export default function Home() {
   const router = useRouter();
 
